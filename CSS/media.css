@@ -58,7 +58,6 @@
     }
     .section .enter {
         padding: 0 10px;
-        top: 95.5%;
     }
     .section .enter .use {
         grid-template-columns: 1fr;

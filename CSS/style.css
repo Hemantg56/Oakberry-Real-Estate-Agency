@@ -60,10 +60,9 @@
      /* Section-1 START */
      
      .section {
-         height: 780px;
+         height: 750px;
          background: linear-gradient(rgba(0, 0, 0, .60), rgba(0, 0, 0, .60)), url(../Image/bg_2.jpg.webp);
          background-size: 100% 100%, 100% 100%, contain;
-         position: relative;
      }
      /* Navigation Bar START */
      
@@ -181,13 +180,17 @@
          font-size: 1rem;
      }
      
+     .section .gd {
+         margin-top: 10px;
+         /* height: 200px; */
+     }
+     
      .section .properties {
          height: 50px;
          /* background-color: lightblue; */
          display: flex;
          justify-content: space-between;
          padding: 0 520px;
-         margin-top: 20px;
      }
      
      .section .properties button {
@@ -209,9 +212,6 @@
      
      .section .enter {
          width: 100%;
-         position: absolute;
-         top: 88%;
-         left: 0;
          padding: 0 100px;
      }
      
