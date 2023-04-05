@@ -1,0 +1,195 @@
+@media (max-width:600px) {
+    header {
+        grid-template-columns: 1fr;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    header .subject {
+        margin-bottom: 10px;
+    }
+    .section {
+        background-size: 250% 100%;
+        background-position: center;
+    }
+    nav {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #081637;
+    }
+    .section nav .nav {
+        display: none;
+    }
+    .section nav .submit .property {
+        display: none;
+    }
+    .section nav .submit .menusy {
+        visibility: visible;
+    }
+    nav .submit .menusy {
+        word-spacing: 3px;
+    }
+    .section {
+        height: 690px;
+    }
+    .section .heading {
+        width: 93%;
+        margin: 110px 15px 0 15px;
+        padding-left: 25px;
+        padding-right: 0px;
+    }
+    .section .heading1 {
+        font-size: 2.8rem;
+    }
+    .section .heading2 {
+        margin-top: 40px;
+    }
+    .section .heading2 {
+        margin-top: 50px;
+        margin-left: -10px;
+    }
+    .section .main {
+        margin-top: 40px;
+    }
+    .section .properties {
+        padding: 0 95px;
+    }
+    .section .enter {
+        padding: 0 10px;
+        top: 87.5%;
+    }
+    .section .enter .use {
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 100px 100px 100px 60px;
+    }
+    .section .enter .search {
+        padding-top: 25px;
+    }
+    .section2 {
+        margin-top: 370px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section2 .cate {
+        padding: 0 0px;
+    }
+    .section2 .cate .explore {
+        font-size: 1.4rem;
+        line-height: 50px;
+    }
+    .section2 .dow .inder .place {
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 200px 200px 200px;
+    }
+    .section2 .dow .inder .contry {
+        grid-template-columns: 1fr;
+        grid-template-rows: 400px 400px 400px;
+    }
+    .section3 {
+        padding-left: 10px;
+        padding-right: 10px;
+        grid-template-rows: auto auto;
+    }
+    .section3 .row {
+        grid-template-columns: 1fr;
+    }
+    .house-effect {
+        background-size: cover;
+        background-position: center;
+    }
+    .section5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section5 .colom {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .section5 .colom .section5-colom1 {
+        display: none;
+    }
+    .section5 .colom .section5-colom2 {
+        grid-template-rows: auto 425px;
+    }
+    .section5 .colom .section5-colom2 .colom2-text .colom-text1 {
+        font-size: 1.7rem;
+    }
+    .section5 .colom .section5-colom2 .colom2-text .colom-text2 {
+        font-size: 1rem;
+    }
+    .section5 .colom .section5-colom2 .colom2-text .colom-subcolom {
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 100px 100px 100px;
+    }
+    .section5 .colom .section5-colom2 .colom2-img {
+        background-size: cover;
+    }
+    .section6 .section-text {
+        grid-template-columns: 1fr;
+        grid-template-rows: 130px;
+        padding-left: 10px;
+    }
+    .section6 .section-text .section-text-leftside .leftside-text {
+        font-size: 2rem;
+    }
+    .section7 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section7 .row {
+        grid-template-rows: 130px auto;
+    }
+    .section7 .row .row-up .row-up-text1 {
+        font-size: 2rem;
+    }
+    .section7 .row .row-down {
+        grid-template-columns: 1fr;
+        grid-template-rows: 280px;
+    }
+    .section7 .row-down .co1 {
+        display: none;
+    }
+    .section8 {
+        height: 2275px;
+    }
+    .section8 .side-colom {
+        height: 2275px;
+    }
+    .section8 .section8-row {
+        left: 10px;
+        width: 96%;
+    }
+    .section8 .section8-row .section8-row-up {
+        padding-left: 0;
+    }
+    .section8 .section8-row .section8-row-up .t2 {
+        font-size: 2rem;
+    }
+    .section8 .section8-row .section8-row-down {
+        grid-template-columns: 1fr;
+    }
+    .section9-row {
+        width: 96%;
+    }
+    .section9-row .section9-row-text .section9-text1 {
+        font-size: 2.5rem;
+        line-height: 80px;
+    }
+    .section9-row .section9-row-contant {
+        grid-template-columns: 1fr;
+    }
+    .section10 {
+        grid-template-columns: 1fr;
+    }
+    footer .footer-main {
+        grid-template-columns: 2fr;
+        grid-template-rows: 250px 250px 250px 250px 250px;
+        width: 95%;
+        padding-bottom: 20px;
+    }
+    footer .t3 {
+        padding: 40px 50px;
+    }
+}
