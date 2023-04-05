@@ -2,7 +2,8 @@
          box-sizing: border-box;
          padding: 0;
          margin: 0;
-         font-family: Arial, Helvetica, sans-serif
+         font-family: "Nunito Sans", Arial, sans-serif;
+         scroll-behavior: smooth;
      }
      /* Header START */
      
@@ -59,7 +60,7 @@
      /* Section-1 START */
      
      .section {
-         height: 740px;
+         height: 780px;
          background: linear-gradient(rgba(0, 0, 0, .60), rgba(0, 0, 0, .60)), url(../Image/bg_2.jpg.webp);
          background-size: 100% 100%, 100% 100%, contain;
          position: relative;
@@ -71,13 +72,7 @@
          background-color: rgba(0, 0, 0, .10);
          display: grid;
          grid-template-columns: 2fr 6fr 2fr;
-         padding: 5px 100px;
-     }
-     
-     .section nav .cname {
-         /* border: 1px solid; */
-         display: grid;
-         grid-template-rows: 6fr 4fr;
+         padding: 10px 100px;
      }
      
      .section nav .cname .oa a {
@@ -88,10 +83,12 @@
          font-family: "Nunito Sans", Arial, sans-serif;
      }
      
+     .section nav .cname .real {
+         margin-top: -10px;
+     }
+     
      .section nav .cname .real a {
-         text-decoration: none;
-         font-size: 11px;
-         font-weight: bold;
+         font-size: 12px;
      }
      
      .section nav .nav {
@@ -134,7 +131,7 @@
      
      .section nav .submit .menusy {
          color: #fff;
-         /* visibility: hidden; */
+         visibility: hidden;
      }
      /* Navigation Bar END */
      
@@ -148,7 +145,7 @@
      }
      
      .section .heading1 {
-         font-size: 4.3rem;
+         font-size: 3.9rem;
          color: #fff;
          font-family: "Nunito Sans", Arial, sans-serif;
      }
@@ -213,7 +210,7 @@
      .section .enter {
          width: 100%;
          position: absolute;
-         top: 89.5%;
+         top: 88%;
          left: 0;
          padding: 0 100px;
      }
@@ -1044,7 +1041,8 @@
          /* font-weight: bold; */
      }
      
-     .section9-row .section9-row-contant .section9-colom .section9-colom-text .section9-text1 span {
+     .section9-row .section9-row-contant .section9-colom .section9-colom-text .section9-text1 a {
+         text-decoration: none;
          color: #5ea51d;
      }
      

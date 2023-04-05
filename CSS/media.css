@@ -54,11 +54,11 @@
         margin-top: 40px;
     }
     .section .properties {
-        padding: 0 95px;
+        padding: 0 110px;
     }
     .section .enter {
         padding: 0 10px;
-        top: 87.5%;
+        top: 95.5%;
     }
     .section .enter .use {
         grid-template-columns: 1fr;
