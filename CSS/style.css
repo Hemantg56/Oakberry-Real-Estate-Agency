@@ -144,16 +144,16 @@
      }
      
      .section .heading1 {
-         font-size: 3.9rem;
+         font-size: 4.3rem;
          color: #fff;
          font-family: "Nunito Sans", Arial, sans-serif;
      }
      
      .section .heading2 {
-         margin-top: 30px;
+         margin-top: 20px;
          font-size: 1.1rem;
          color: rgba(255, 255, 255, 0.8);
-         line-height: 30px;
+         /* line-height: 30px; */
          font-family: "Nunito Sans", Arial, sans-serif;
      }
      
@@ -1219,13 +1219,6 @@
      
      footer .footer-sub2 .footer-text1 {
          color: #fff;
-         font-family: "Nunito Sans", Arial, sans-serif;
-         font-size: 1.5rem;
-     }
-     
-     footer .footer-sub2 .footer-text1 {
-         color: #fff;
-         font-family: "Nunito Sans", Arial, sans-serif;
          font-size: 1.5rem;
          margin-bottom: 40px;
      }
@@ -1242,7 +1235,6 @@
      footer .footer-sub2 .footer-li a {
          text-decoration: none;
          font-size: 1.1rem;
-         font-family: "Nunito Sans", Arial, sans-serif;
          color: rgba(255, 255, 255, 0.5);
      }
      
